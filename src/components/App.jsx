@@ -7,8 +7,7 @@ import styles from './ContactForm.module.css';
 
 function App() {
   const [contacts, setContacts] = useState([]);
-  const [name, setName] = useState('');
-  const [number, setNumber] = useState('');
+  
   const [filter, setFilter] = useState('');
 
   const addContact = (newContact) => {
